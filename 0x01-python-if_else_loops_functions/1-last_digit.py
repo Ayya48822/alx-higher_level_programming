@@ -7,13 +7,13 @@ num *= -1
 else:
     num = number
     if number < 0:
-        output = (num % 10) * -1
+        last d = (num % 10) * -1
     else:
-        output = num % 10
+        last d = num % 10
 
-if output % 10 == 0:
-    print(f"Last digit of {number} is {output} and is 0")
-elif output > 5:
-    print(f"Last digit of {number} is {output} and is greater than 5")
+if last d % 10 == 0:
+    print(f"Last digit of {number} is {last d} and is 0")
+elif last d > 5:
+    print(f"Last digit of {number} is {last d} and is greater than 5")
 else:
-    print(f"Last digit of {number} is {output} and is less than 6 and not 0")
+    print(f"Last digit of {number} is {last d} and is less than 6 and not 0")
