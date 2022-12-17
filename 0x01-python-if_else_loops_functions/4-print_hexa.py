@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for decimal in range(0, 99):
-    print("{} = {}".format(decimal, hexa(decimal)))
+    print("{} = {}".format(decimal, hex(decimal)))
