@@ -6,6 +6,6 @@ for num in range(0, 100):
     else:
         number = num
         if num < 99:
-            print("{}, ".format(number), end="")
+            print("{}, ".format(number), end=""))
         else:
             print("{}".format(number))
