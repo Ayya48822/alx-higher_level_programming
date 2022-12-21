@@ -1,14 +1,16 @@
-#!usr/bin/python3
-"""create a square class"""
+#!/usr/bin/python3
+""" creating a Square class"""
 
 
 class Square():
-    """ initiallizing init function """
-    
-        def _int_(self, size=0):
-        """ initiallizing size attribute and making  it to private
+    """creating the init function"""
+
+    def __init__(self, size=0):
+        """ initializing the size attribute
+        and setting it to private
+
         Args:
-        size(int): the size of the square
+            size(int): the size of the square
         """
         if (type(size) is not int):
             raise TypeError("size must be an integer")
