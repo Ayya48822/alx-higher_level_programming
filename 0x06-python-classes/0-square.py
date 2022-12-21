@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""an empty class to represent a square four side figure"""
+"""a square class to represent a square"""
 
 
 class square():
