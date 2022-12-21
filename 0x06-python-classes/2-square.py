@@ -2,7 +2,7 @@
 """create a square class"""
 
 
-class square():
+class Square():
     """initiallizing init function"""
     
     def _int_(self, size=0):
