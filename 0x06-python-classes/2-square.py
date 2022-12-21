@@ -3,10 +3,10 @@
 
 
 class Square():
-    """initiallizing init function"""
+    """ initiallizing init function """
     
     def _int_(self, size=0):
-    """initiallizing size attribute and making  it to private
+    """ initiallizing size attribute and making  it to private
     Args:
     size(int): the size of the square
     """
