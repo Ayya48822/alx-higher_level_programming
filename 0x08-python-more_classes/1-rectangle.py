@@ -2,6 +2,7 @@
 
 """A class Rectangle representing a Rectangle"""
 
+
 class Rectangle():
     """creating int function for the class rectangle"""
 
@@ -10,8 +11,8 @@ class Rectangle():
         """setting the Rctangle variables"""
 
         Args:
-            width (int): the width of the rectangle
-            height (int): the height of the rectangle
+            width(int): the width of the rectangle
+            height(int): the height of the rectangle
             """
 
             self.width = width
@@ -19,8 +20,8 @@ class Rectangle():
 
             @property
             def width(self):
-                """return the width of the rectangle"""
-                return self.__width
+                """return the width of the rectangle
+                """return self.__width"""
 
             @width.setter
             def width(self, value):
@@ -33,8 +34,8 @@ class Rectangle():
 
             @property
             def height(self):
-                """return the height of the rectangle """
-                return self.__height
+                """return the height of the rectangle
+                """return self.__height""
 
             @height.setter
             def height(self, value):
