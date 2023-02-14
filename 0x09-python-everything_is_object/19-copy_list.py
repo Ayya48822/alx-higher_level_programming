@@ -1,3 +1,3 @@
 #!/usr/bin/pythoni3
-def copy_list(lis):
-    return lis[:]
+def copy_list(new_list):
+    return new_list[:]
