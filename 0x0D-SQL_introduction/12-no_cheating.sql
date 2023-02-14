@@ -1,2 +1,2 @@
 -- script that updates the score of Bob
-UPDATE 'second table' Bob SET score = 10
+UPDATE `second_table` SET score = 10 WHERE name = 'Bob';
