@@ -1,3 +1,4 @@
+-- create table with foreign key
 CREATE DATABASE IF NOT EXISTS `hbtn_0d_usa`;
 CREATE TABLE IF NOT EXISTS `hbtn_0d_usa`.`cities` (
     PRIMARY KEY(`id`),
